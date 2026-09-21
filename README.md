@@ -8,7 +8,7 @@ Uma API RESTful desenvolvida em Spring Boot para o gerenciamento de eventos e bu
 - **Spring Boot** (Web, Data JPA, Security)
 - **Spring Security & JWT** (Autenticação e Autorização)
 - **Apache POI** (Geração de documentos DOCX)
-- **Banco de Dados** (H2 / MySQL / PostgreSQL)
+- **Banco de Dados** (PostgreSQL)
 - **JUnit 5 & MockMvc** (Testes Unitários e de Integração)
 - **Maven** (Gerenciamento de dependências)
 
@@ -71,10 +71,6 @@ A API estará rodando por padrão na porta `8080`.
 ## 🧪 Testes Automatizados
 
 O projeto conta com uma cobertura completa de testes (mais de 150 testes unitários e de integração), garantindo a estabilidade e funcionamento de todos os módulos.
-Para rodar a suíte de testes:
-```bash
-./mvnw test
-```
 
 ## 📄 Licença
 
